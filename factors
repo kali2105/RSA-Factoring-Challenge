@@ -19,10 +19,11 @@ else:
 ''' main function that open and read the file
 and factorize every single number
 '''
+num_type = [int, float, str]
 with open(x, 'r') as file:
     for line in file:
-        if line:
-            for i in range(2, 9):
+        for i in range(2, 9):
+            if line != '\n':
                 if int(line) % i == 0:
                     print("{:d}={:d}*{:d}".format(int(line), int(line)//i, i))
                     break

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''A program that factorize as many numbers as possible
  into a product of two smaller numbers.'''
-import sys
+from sys import argv
 
 ''' sys for input the file that contain the numbers to be factorized
 + error handler gives a message of the usage of the program
@@ -21,11 +21,11 @@ def factors(value):
     print(value, "<- value-aft")
     print()
 
-if len(sys.argv) != 2:
+if len(argv) != 2:
     exit()
 
 try:
-    with open(sys.argv[1]) as file:
+    with open(argv[1]) as file:
         line = file.readline()
 
         while line != "":

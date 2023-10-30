@@ -5,7 +5,7 @@
 ### Introduction:
 
 This program, "Factors," is designed to factorize natural numbers into a product of two smaller numbers. The goal is to factorize as many numbers as possible in less than 5 seconds and its coded in python
-And The program, "rsa" is designed to factorize numbers into prime numbers.The goal of this program is to do so in less than 5 seconds and for this one I code it in bash script
+And The program, "rsa" is designed to factorize numbers into prime numbers.The goal of this program is to do so in less than 5 seconds and for this one I code it in shell scripting
 
 ### Usage:
 
@@ -14,8 +14,8 @@ what works for the factors program works for the rsa(for the usage, output, exec
 To use this program, follow these instructions:
 
 ```bash
-./factors <filename>
-./rsa <filename>
+./factors <filename> (test)
+./rsa <filename> (test)
 ```
 Where <file> is a file containing natural numbers to factor. Each number should be placed on a separate line, and they should be valid natural numbers greater than 1. There should be no empty lines, spaces before or after the valid number, and the file should always end with a new line.
 
